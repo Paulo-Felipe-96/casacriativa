@@ -6,7 +6,7 @@ Composta por Front-end e Back-end 100% em JavaScript.
 
 ---
 
-<img width="900" height="550" src="https://github.com/Paulo-Felipe-96/casacriativa/blob/master/public/logo.png">
+<img width="900" height="550" src="https://image.freepik.com/free-vector/stay-home-concept_23-2148479215.jpg">
 
 ## 🚀  Tecnologias
 Backend:
