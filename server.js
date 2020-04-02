@@ -66,15 +66,16 @@ server.get("/ideas", function (req, res) {
 })
 
 server.post("/", function (req, res) {
+
     const query = `
-        INSERT INTO ideas (
-            image,
-            title,
-            category,
-            description,
-            link
-        ) VALUES (?,?,?,?,?);
-        `
+    INSERT INTO ideas(
+        image,
+        title,
+        category,
+        description,
+        link
+    ) VALUES (?,?,?,?,?)
+    `
 
     const values = [
         req.body.image,

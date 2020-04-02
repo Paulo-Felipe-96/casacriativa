@@ -15,6 +15,11 @@ db.serialize(function () {
         );
     `)
 
+    //Deletar tabela
+    // db.run(`
+    // DROP TABLE ideas;
+    // `)
+
     // Inserir dados na tabela
     // const query = `
     // INSERT INTO ideas(
@@ -48,11 +53,11 @@ db.serialize(function () {
     // })
 
     // Consultar dados na tabela
-    db.all(`SELECT * FROM ideas`, function (err, rows) {
-        if (err) return console.log(err)
+    // db.all(`SELECT * FROM ideas`, function (err, rows) {
+    //     if (err) return console.log(err)
 
-        console.log(rows)
-    })
+    //     console.log(rows)
+    // })
 })
 
 module.exports = db
