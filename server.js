@@ -4,16 +4,6 @@ const server = express()
 
 const db = require("./db")
 
-// const ideas = [
-//     {
-//         img: "https://image.flaticon.com/icons/svg/2729/2729007.svg",
-//         title: "Cursos de Programação",
-//         category: "Estudo",
-//         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam ipsam reprehenderit",
-//         url: "https://rocketseat.com.br"
-//     }
-// ]
-
 // configurar arquivos estáticos (css, scripts, imagens)
 server.use(express.static("public"))
 
