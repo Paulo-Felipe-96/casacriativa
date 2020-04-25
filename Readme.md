@@ -34,6 +34,15 @@ Instale as dependências:
 ```sh
 $ npm install
 ```
+```sh
+$ npm i nunjucks
+```
+```sh
+$ npm i nodemon
+```
+```sh
+$ npm i sqlite3
+```
 Inicie o servidor:
 ```sh
 $ npm run dev
