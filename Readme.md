@@ -30,7 +30,7 @@ Entre na pasta do projeto:
 ```sh
 $ cd casacriativa
 ```
-Instale as dependências:
+Instale as dependências, não se esqueca do [Node.js](https://nodejs.org/en/):
 ```sh
 $ npm install
 ```
@@ -42,6 +42,9 @@ $ npm i nodemon
 ```
 ```sh
 $ npm i sqlite3
+```
+```sh
+$ npm i express
 ```
 Inicie o servidor:
 ```sh
